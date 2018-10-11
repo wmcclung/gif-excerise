@@ -1,0 +1,48 @@
+#header {
+  background-color: #e50914;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: "Sigmar One", cursive;
+}
+
+#topLeft {
+  width: 15%;
+  float: left;
+  margin-left: 20px;
+}
+
+#topRight {
+  width: 15%;
+  float: right;
+  margin-right: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+#show {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#nbaSearch {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Sigmar One", cursive;
+}
+
+#gifArea {
+  clear: both;
+  display: inline;
+  flex-wrap: wrap;
+}
+
+.nbaGiphy {
+  padding: 2px;
+  width: 80%;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>AJAX Giphy Button Review</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+
+</head>
+
+<body id="wholeThing">
+
+  <div class="jumbotron" id="header">
+    <img id="topLeft" src="assets/images/giphy-left.gif">
+    <img id="topRight" src="assets/images/giphy-right.gif">
+    <h1>Cmon and Slam</h1>
+    <h4>Click buttons to watch gifs of your favorite player<br>Click on giphs to pause/play<br>Add more buttons with
+      search</h4>
+  </div>
+
+  <form class="form-inline" id="nbaSearch">
+    <div class="form-group">
+      <label for="nbaInput">Search</label>
+      <input type="text" id="nbaInput">
+    </div>
+    <!-- Button triggers show to be added -->
+    <input id="addPlayer" type="submit" value="submit">
+  </form>
+  <br>
+  <br>
+  <div class="row">
+    <div class="container">
+      <div class="btn-group inline pull-center">
+        <button class="btn btn-danger" id="show" data-search="Ron Artest">Ron Artest</button>
+        <button class="btn btn-danger" id="show" data-search="Michael Jordan">Michael Jordan</button>
+        <button class="btn btn-danger" id="show" data-search="Derrick Rose">Derrick Rose<button>
+            <button class="btn btn-danger" id="show" data-search="Lebron James">Lebron James</button>
+
+            <div id="myButtons"></div>
+      </div>
+      <!--end of button group -->
+    </div>
+    <!--end of container -->
+  </div>
+  <!--end of row -->
+
+
+  <div class="row">
+    <div class="container">
+      <span>
+        <div id="gifArea"></div>
+      </span>
+    </div>
+    <!--end of container -->
+  </div> <!-- end of row  -->
+
+
+
+  <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+    crossorigin='anonymous'></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+
+</html>
